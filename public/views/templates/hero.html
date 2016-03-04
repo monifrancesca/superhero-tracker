@@ -1,0 +1,21 @@
+<form class="addHeroForm">
+    <div id="heroInput">
+        <label for="heroAlias">Enter Alias: </label>
+        <input type="text" id="heroAlias" name="heroAlias" ng-model="alias" />
+        <label for="heroFirstName">Enter First Name: </label>
+        <input type="text" id="heroFirstName" name="heroFirstName" ng-model="first_name" />
+        <label for="heroLastName">Enter Last Name: </label>
+        <input type="text" id="heroLastName" name="heroLastName" ng-model="last_name" />
+        <label for="heroCity">Enter City: </label>
+        <input type="text" id="heroCity" name="heroCity" ng-model="city" />
+        <label for="primaryPower">Enter Primary Superpower: </label>
+        <input type="text" id="primaryPower" name="primaryPower" ng-model="primary_power" />
+    </div>
+    <div>
+        <button class="submit-button" ng-click="saveHero()">Submit</button>
+    </div>
+    <div id="heroList">
+        <h1>Heroes</h1>
+        <p ng-repeat="hero in Heroes" >{{hero.alias}}</p>
+    </div>
+</form>

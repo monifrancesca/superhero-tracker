@@ -1,0 +1,23 @@
+{
+  "name": "superhero-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "monifrancesca",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.6",
+    "normalize.css": "^3.0.3",
+    "path": "^0.12.7",
+    "reset.css": "^2.0.2",
+    "skeleton-css": "^2.0.4"
+  }
+}

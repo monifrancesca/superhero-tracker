@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Superhero Directory</title>
+    <link rel="stylesheet" href="./vendors/normalize.css" />
+    <link rel="stylesheet" href="./vendors/skeleton.css" />
+    <link rel="stylesheet" href="./styles/stylesheet.css" />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <!-- Angular -->
+    <script type="text/javascript" src="./vendors/angular.min.js"></script>
+    <script type="text/javascript" src="./vendors/angular-route.min.js"></script>
+    <script type="text/javascript" src="./scripts/clientapp.js"></script>
+    <script type="text/javascript" src="./scripts/controllers/heroController.js"></script>
+
+
+</head>
+<body ng-app="myApp">
+<div class="container twelve columns">
+    <header class="twelve columns row">
+        <h2>Hero Tracker</h2>
+    </header>
+    <main>
+        <div ng-view>
+
+        </div>
+    </main>
+</div>
+</body>
+</html>
