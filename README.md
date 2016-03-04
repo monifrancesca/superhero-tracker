@@ -1,17 +1,4 @@
-# superhero-tracker
-
-    Instructions
-
-    This assessment is intended to see how you are progressing with Angular, Mongo, Node, and Express. It is open-notes and open-book. No talking is allowed for the duration.
-
-    Once you are complete, check your work into a new repo and post it on GitHub. Submit this link with your assignment.
-
-    A friendly reminder that this is simply a way for us to see how you are individually doing with the technology. If this is no problem, great. If you are struggling with it, get done what you can and still submit. This assessment is not an indicator of how you will perform post Prime or a measure of overall success thus far. It just gives us an idea of where you are at.
-
-    Just relax and show us what you know!
-
-    Thanks and good luck!
-    Your Hero Tracker
+# Your Hero Tracker
 
     The Department of Superhero Knowledge needs an app to help track super hero aliases and powers. You are going to build them this app with Angular and MongoDB. This app will have the following features. Please do not add anything. Focus on the functionality listed.
     Views and Controllers
